@@ -20,6 +20,7 @@ Just the model as its creator released it — no LoRAs, no extra nodes, no upsca
    (Your Civitai token will be in it, so it must stay private.)
 2. **Add your Civitai token** — get one at civitai.com → Account settings → API Keys.
    In your copy, open `Dockerfile` → ✏️ edit → replace `PASTE_YOUR_CIVITAI_TOKEN_HERE` on line 5 → Commit.
+   No RunPod account yet? [Sign up here](https://runpod.io?ref=qpguwapm) — a referral link: you get RunPod's sign-up bonus and this repo gets a small credit.
 3. **Create the endpoint** — RunPod → Serverless → New Endpoint → GitHub Repo → pick your copy:
 
    | Setting | Value |
@@ -32,7 +33,7 @@ Just the model as its creator released it — no LoRAs, no extra nodes, no upsca
    | FlashBoot | On |
    | Container disk | 20 GB |
 
-   The first build takes about 15 minutes. The very first request after that waits another 5–10 minutes while a worker pulls the image; later cold starts are much faster.
+   The first build takes about 15 minutes. The very first request after that waits another 3–10 minutes while a worker pulls the image; later cold starts are much faster.
 4. **Create an API key** — RunPod → Settings → API Keys → **Restricted**, allow only this endpoint.
 
 ## Updates
@@ -64,4 +65,6 @@ Tips: 30 steps, CFG 4, DPM++ 2M SDE Karras, negative `old, ugly, blurry` — the
 
 ### Compatible clients
 
-- _(list coming)_
+- [Cobalt Pear](https://cobaltpear.github.io/) — a one-page web app: add this repo's URL, your endpoint ID and API key, then just type a prompt. Everything stays in your browser. [Try the demo](https://cobaltpear.github.io/demo/) without RunPod.
+
+Questions or ideas: [Discussions](https://github.com/cobaltpear/cobaltpear.github.io/discussions).
