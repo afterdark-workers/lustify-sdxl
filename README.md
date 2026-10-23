@@ -61,7 +61,7 @@ curl -X POST https://api.runpod.ai/v2/<ENDPOINT_ID>/runsync \
 
 The image comes back as base64 in `output.images[0].data`.
 
-Tips: 30 steps, CFG 4, DPM++ 2M SDE Karras, negative `old, ugly, blurry` — the creator's sample settings. SDXL sizes: about 1 megapixel, multiples of 64.
+Tips: 30 steps, CFG 4, DPM++ 2M SDE Karras, negative `old, ugly, blurry` — the creator's sample settings. Many of the creator's samples also add camera words for a photo look, e.g. `(helios 44, Fujifilm GFX 50R, bokeh, depth of field:1.15)` — add them yourself if you want that look. SDXL sizes: about 1 megapixel, multiples of 64.
 
 ### Compatible clients
 
