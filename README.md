@@ -53,8 +53,8 @@ To rebuild: commit any change to the `main` branch of your copy — RunPod build
 
 ### Model version
 
-`main` always follows the version the model's creator currently recommends. Now: **ZENITH (V9), Civitai version 3045803** — the last SDXL version (newer Lustify versions are built on another base model and get their own repo).
-When it moves to a new version, the old one is kept as a tag (e.g. `v3045803`). To stay on it, replace `main` with that tag in both `ADD` lines of your `Dockerfile`.
+This repo always follows the version the model's creator currently recommends. Now: **ZENITH (V9), Civitai version 3045803** — the last SDXL version (newer Lustify versions are built on another base model and get their own repo).
+Each change of the build files is kept as a release (`files-…`). To stay on one, replace `latest/download` with `download/files-…` (that release's name) in both `ADD` lines of your `Dockerfile`.
 
 ## Use it
 
