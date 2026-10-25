@@ -1,6 +1,6 @@
 # Lustify SDXL — RunPod Serverless worker
 
-A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **LUSTIFY! ZENITH (V9)**, a photoreal SDXL checkpoint. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
+A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[LUSTIFY! ZENITH (V9)](https://civitai.com/models/573152?modelVersionId=3045803)**, a photoreal SDXL checkpoint. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 
 Models are baked into the image, so a cold start does not re-download anything.
 
@@ -10,7 +10,7 @@ Models are baked into the image, so a cold start does not re-download anything.
 
 | File | Source | Size |
 |---|---|---|
-| `checkpoints/lustify_sdxl_v9.safetensors` | Civitai 573152 / version 3045803 (fp16 pruned) | 6.8 GB |
+| `checkpoints/lustify_sdxl_v9.safetensors` | [Civitai 573152 / version 3045803](https://civitai.com/models/573152?modelVersionId=3045803) (fp16 pruned) | 6.8 GB |
 
 Just the model as its creator released it — no LoRAs, no extra nodes, no upscalers. The file is checked by SHA-256 at build time. SDXL runs on the ComfyUI of the base image, so nothing else is installed.
 
