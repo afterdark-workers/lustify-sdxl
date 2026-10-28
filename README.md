@@ -98,6 +98,6 @@ Tips: 30 steps, CFG 4, DPM++ 2M SDE Karras, negative `old, ugly, blurry` — the
 
 ### Compatible clients
 
-- [Cobalt Pear](https://cobaltpear.github.io/) — a one-page web app: add this repo's URL, your endpoint ID and API key, then just type a prompt. Everything stays in your browser. [Try the demo](https://cobaltpear.github.io/demo/) without RunPod.
+- [Cobalt Pear](https://cobaltpear.github.io/) — a one-page web app: add this repo's URL, your endpoint ID and API key, then just type a prompt. Everything stays in your browser. [Try the demo](https://cobaltpear.github.io/demo/) without RunPod. What's different for these workers there: [Use with Cobalt Pear](https://afterdark-workers.github.io/cobalt-pear/).
 
-Questions or ideas: [Discussions](https://github.com/cobaltpear/cobaltpear.github.io/discussions).
+Questions or ideas: [Discussions](https://github.com/afterdark-workers/afterdark-workers.github.io/discussions).
